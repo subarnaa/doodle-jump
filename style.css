@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('./assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  height: 600px;
+  width: 400px;
+  /* background: rgb(209, 255, 134); */
+  background: url('./assets/doodle-background.jpg');
+  background-size: contain;
+  margin: 3rem auto 0;
+  position: relative;
+  overflow: hidden;
+  font-size: 900px;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 50px 10px;
+}
+
+.doodle {
+  height: 80px;
+  width: 60px;
+  background: url('./assets/doodle.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+.floor {
+  height: 15px;
+  width: 80px;
+  background: green;
+  position: absolute;
+  border-radius: 1rem;
+}
+
+#scoreBoard {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-size: 100px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.3)
+}
